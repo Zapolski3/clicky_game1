@@ -2,6 +2,7 @@
   "name": "clicky_game1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Zapolski3/clicky_game1/tree/master",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
@@ -9,6 +10,8 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
